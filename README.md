@@ -67,4 +67,3 @@ Exiting...
 - Add expiration policies for cache entries.
 - Improve file storage efficiency with structured formats (JSON, binary).
 - Introduce a CLI or API for interaction.
-```
