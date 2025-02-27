@@ -15,28 +15,33 @@ cdatabase/
 │── README.md           # Project documentation
 ```
 
-## README.md (GitHub Documentation)
-```markdown
+
+
 # CDatabase
 
 CDatabase is a simple key-value store written in C with memory caching and file persistence. It allows fast key-value lookups using an in-memory hash table while persisting data to disk.
 
 ## Features
-✅ **In-Memory Caching** - Fast lookups using a hash table.
-✅ **File Persistence** - Stores data in `database.txt` to survive restarts.
-✅ **Thread-Safety** - Uses `pthread_mutex_t` to handle concurrent access.
-✅ **Modular Design** - Separated concerns for better maintainability.
+* **In-Memory Caching** - Fast lookups using a hash table.
+* **File Persistence** - Stores data in `database.txt` to survive restarts.
+* **Thread-Safety** - Uses `pthread_mutex_t` to handle concurrent access.
+* **Modular Design** - Separated concerns for better maintainability.
 
 ## Installation & Usage
-```sh
+
 # Clone the repository
+```sh
 git clone https://github.com/yourusername/cdatabase.git
 cd cdatabase
+```
 
 # Build the project
+```sh
 make
+```
 
 # Run the database application
+```sh
 ./cdatabase
 ```
 
